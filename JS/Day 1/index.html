@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=2, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="alert('Inline JS')">Inline</button>
+    <button id="2">Internal</button>
+    <button id="3">External</button>
+</body>
+<!-- <script src="index.js"></script> -->
+<script src="1.js"></script>
+<script>
+    document.getElementById('2').addEventListener('click', () => {
+        alert("Internal JS")
+    })
+</script>
+
+</html>
