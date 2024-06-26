@@ -37,3 +37,7 @@
 
 // arrOfStr = str.split("-")
 // console.log(arrOfStr)
+
+alert("Alerting")
+let n =20
+alert(n)

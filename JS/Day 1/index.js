@@ -45,3 +45,4 @@ console.log(arr);
 
 let obj = {"name": "abx", class: 11}
 console.log(obj)
+
